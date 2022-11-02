@@ -1,0 +1,116 @@
+.navigation {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../assets/image/bg/main.jpg");
+  background-size: cover;
+}
+
+.intro {
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-shadow: 8px 8px rgb(61, 61, 61);
+  letter-spacing: 2px;
+}
+
+.cont-nav {
+  font-size: 1.5rem;
+  margin: 10px 20px;
+}
+
+.searchMovie {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../assets/image/bg/romance.jpg");
+  background-size: cover;
+}
+
+.movieImage {
+  height: auto;
+  background-color: black;
+  margin: 1.3rem;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.images {
+  height: 500px;
+  cursor: pointer;
+}
+
+.movieImage:hover {
+  cursor: pointer;
+  z-index: 3;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.text-tren {
+  height: 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.title1 {
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1.2;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.title2 {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+
+.introButton .btn-intro {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.btn-search {
+  padding: 0px 20px;
+}
+
+.Trending {
+  height: auto;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../assets/image/bg/scifi.jpg");
+  background-size: cover;
+}
+
+.text-trending {
+  margin: 1.5rem 0;
+  font-size: 3rem;
+  font-weight: 800;
+  text-shadow: 4px 4px rgb(61, 61, 61);
+}
